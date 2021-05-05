@@ -86,7 +86,7 @@ def main():
     resul=""
     if st.button("Prediction"):
       result=predict_note_authentication(age,cp,trestbps,chol,fbs,Gender,Geography,restecg,thalach,exang,oldpeak,slope,ca,thal)
-      st.success('Model has predicted {}'.format(result))  
+      st.success('Model has predicted Heart Disease Category {}'.format(result))  
     if st.button("About"):
       st.header("Developed by Jatin Tak")
       st.subheader("Student, Department of Computer Engineering")
